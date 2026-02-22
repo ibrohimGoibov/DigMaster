@@ -20,7 +20,7 @@ import img1 from '@/public/image copy.png'
 import img2 from '@/public/image copy 2.png'
 import img3 from '@/public/image copy 3.png'
 import img4 from '@/public/image copy 4.png'
-import img5 from '@/public/img.avif'
+import img5 from '@/public/img.avif' 
 
 export default function Index() {
   const t = useTranslations('Home');
