@@ -1,0 +1,32 @@
+{
+  "Index": {
+    "title": "DigMaster — 专业工程机械租赁"
+  },
+  "Navbar": {
+    "home": "首页",
+    "fleet": "设备展示",
+    "services": "服务项目",
+    "about": "关于我们",
+    "contacts": "联系方式",
+    "login": "登录",
+    "register": "注册"
+  },
+  "Home": {
+    "heroSub": "高端重型设备解决方案。拥有沃尔沃 (Volvo) 和 JCB 挖掘机车队，助力您的重大项目。",
+    "contactBtn": "立即联系",
+    "catalogBtn": "查看目录",
+    "whyTitle": "为什么选择",
+    "feat1Title": "全球品质",
+    "feat1Desc": "原装沃尔沃和 JCB 机械，严格遵守国际最高维护标准。",
+    "feat2Title": "专业操作员",
+    "feat2Desc": "拥有多年复杂建筑工地经验的高素质驾驶员。",
+    "feat3Title": "快速部署",
+    "feat3Desc": "协议签署后 24 小时内可快速送往塔吉克斯坦境内的任何工地。",
+    "ctaTitle": "准备好开始您的项目了吗？",
+    "ctaSub": "立即获取专业咨询和最优惠的重型机械租赁价格。",
+    "block1Title": "满足任何任务的现代挖掘机",
+    "block1Desc": "我们的沃尔沃和 JCB 车队配备最新技术，确保您的施工现场效率最大化。",
+    "block2Title": "经验丰富的操作员为您服务",
+    "block2Desc": "我们不仅提供机器，更提供精准。我们的操作员在塔吉克斯坦最艰苦的地形中拥有超过10年的经验。"
+  }
+}

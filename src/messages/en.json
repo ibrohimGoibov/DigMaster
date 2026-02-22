@@ -1,0 +1,32 @@
+{
+  "Index": {
+    "title": "DigMaster — Professional Heavy Equipment Rental"
+  },
+  "Navbar": {
+    "home": "Home",
+    "fleet": "Fleet",
+    "services": "Services",
+    "about": "About Us",
+    "contacts": "Contacts",
+    "login": "Sign In",
+    "register": "Register"
+  },
+  "Home": {
+    "heroSub": "Premium Heavy Equipment Solutions. Own fleet of Volvo and JCB excavators ready for your major projects.",
+    "contactBtn": "Contact Us Now",
+    "catalogBtn": "View Catalog",
+    "whyTitle": "Why Choose",
+    "feat1Title": "Global Quality",
+    "feat1Desc": "Original Volvo and JCB machinery maintained to the highest international standards.",
+    "feat2Title": "Professional Operators",
+    "feat2Desc": "Highly skilled drivers with years of experience on complex construction sites.",
+    "feat3Title": "Rapid Deployment",
+    "feat3Desc": "Fast delivery to any site in Tajikistan within 24 hours of agreement.",
+    "ctaTitle": "Ready to Start Your Project?",
+    "ctaSub": "Get professional consultation and the best rates for heavy machinery rental today.",
+    "block1Title": "Modern Excavators for Any Task",
+    "block1Desc": "Our Volvo and JCB fleet is equipped with the latest technology to ensure maximum efficiency on your construction site. From foundation digging to massive earthmoving.",
+    "block2Title": "Experienced Operators at Your Command",
+    "block2Desc": "We don't just rent machines; we provide precision. Our operators have over 10 years of experience in the toughest terrains of Tajikistan."
+  }
+}
