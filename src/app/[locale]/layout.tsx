@@ -4,6 +4,7 @@ import {notFound} from 'next/navigation';
 import Header from './header/page'
 import './globals.css'
 import Footer from './footer/page'
+import { Toaster } from 'sonner';
 export default async function LocaleLayout({
   children,
   params
@@ -27,6 +28,7 @@ export default async function LocaleLayout({
           <Header />
           {children}
           <Footer />
+          <Toaster position="top-center" richColors />
         </NextIntlClientProvider>
       </body>
     </html>

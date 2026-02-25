@@ -28,5 +28,79 @@
     "block1Desc": "Our Volvo and JCB fleet is equipped with the latest technology to ensure maximum efficiency on your construction site. From foundation digging to massive earthmoving.",
     "block2Title": "Experienced Operators at Your Command",
     "block2Desc": "We don't just rent machines; we provide precision. Our operators have over 10 years of experience in the toughest terrains of Tajikistan."
-  }
+  },
+  "Services": {
+  "mainTitle1": "Our",
+  "mainTitle2": "Services",
+  "heroSub": "We don't just rent out equipment — we perform a full cycle of works for your project in Tajikistan.",
+  "s1Title": "Earthworks",
+  "s1Desc": "Excavation of pits of any depth for foundations of residential complexes and industrial facilities.",
+  "s2Title": "Road Construction",
+  "s2Desc": "Preparation of the roadbed, removal of old asphalt, and digging trenches for curbs.",
+  "s3Title": "Demolition",
+  "s3Desc": "Demolition of dilapidated buildings and concrete structures. Site preparation for new construction.",
+  "s4Title": "Irrigation & Canals",
+  "s4Desc": "Cleaning of ditches, creation of irrigation canals, and digging trenches for water pipes.",
+  "ctaTitle": "Need Consultation?",
+  "ctaDesc": "Our engineer will come to the site, estimate the soil volume, and select the right excavator.",
+  "ctaBtn": "CALL A SPECIALIST"
+},
+"Contact": {
+  "heroTitle1": "Contact", "heroTitle2": "Us",
+  "heroSub": "Leave a request or call us — we are always in touch and ready to answer any questions",
+  "infoTitle1": "Our", "infoTitle2": "Contacts",
+  "infoSub": "We are always happy to help you with the choice of equipment and answer all questions",
+  "phoneLabel": "Phone", "phoneSub": "24/7, no weekends",
+  "emailLabel": "Email", "emailSub": "We will answer within an hour",
+  "addressLabel": "Address", "addressSub": "Head Office", "addressText": "45 Ayni St., Dushanbe",
+  "clockLabel": "Work Hours", "clockSub": "Requests", "clockText": "Mon-Sun: 24/7",
+  "socials": "Follow us",
+  "formTitle": "Send Message",
+  "labelName": "Your Name", "phName": "John Doe",
+  "labelCompany": "Company", "phCompany": "Company Name",
+  "labelPhone": "Phone Number", "labelEmail": "Email",
+  "labelMsg": "Message", "phMsg": "Describe your task...",
+  "submit": "Send Message",
+  "consent": "By clicking the button, you agree to the processing of personal data",
+  "mapLoad": "Map will load here",
+  "mobCall": "Call", "mobChat": "Chat"
+},
+"About": {
+  "heroBadge": "With you since 2012",
+  "heroTagline": "Power in every movement",
+  "stats": {
+    "years": { "full": "Years of perfect work", "short": "Years" },
+    "projects": { "full": "Projects completed", "short": "Projects" },
+    "units": { "full": "Units of equipment", "short": "Fleet" },
+    "clients": { "full": "Happy clients", "short": "Clients" }
+  },
+  "aboutLabel": "About Company",
+  "aboutTitle1": "We are building the future of",
+  "aboutTitle2": "Tajikistan",
+  "aboutText": "DigMaster is not just a rental service. It is a family business built on professionalism and knowledge of every inch of our region's land. We started with one old loader, and today we own a fleet of modern Volvo and JCB machines.",
+  "advantagesTitle": "Our Advantages",
+  "advList": {
+    "1": "Private technical base",
+    "2": "Operators with 7+ years experience",
+    "3": "Direct contracts",
+    "4": "Delivery on the day of request",
+    "5": "Equipment under 5 years old",
+    "6": "In-house surveyors"
+  },
+  "teamBadgeTitle": "Company Founders",
+  "teamBadgeSub": "The Rakhimovs: 20 years in construction",
+  "valuesTitle1": "Our", "valuesTitle2": "Values",
+  "valuesSub": "Principles we follow every day",
+  "valuesList": {
+    "v1": { "t": "Reliability", "d": "Daily two-level equipment inspection." },
+    "v2": { "t": "Experience", "d": "Operators with 8+ years of experience." },
+    "v3": { "t": "Speed", "d": "Dispatch within Dushanbe in 1 hour." },
+    "v4": { "t": "Safety", "d": "Strict compliance with safety rules." },
+    "v5": { "t": "Quality", "d": "Only proven spare parts used." },
+    "v6": { "t": "Coverage", "d": "We work all over Tajikistan." }
+  },
+  "ctaTitle": "Ready to start a project?",
+  "ctaSub": "Contact us now - we'll deliver equipment today",
+  "ctaCall": "Call", "ctaWrite": "Email"
+}
 }

@@ -21,6 +21,7 @@ import img2 from '@/public/image copy 2.png'
 import img3 from '@/public/image copy 3.png'
 import img4 from '@/public/image copy 4.png'
 import img5 from '@/public/img.avif' 
+import Link from "next/link"
 
 export default function Index() {
   const t = useTranslations('Home');
@@ -53,12 +54,16 @@ export default function Index() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-10">
+            <Link href={'/contacts'}>
             <Button size="lg" className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold text-lg px-8 py-6 rounded-2xl shadow-lg shadow-yellow-500/25">
               {t('contactBtn')}
             </Button>
+            </Link>
+            <Link href={'/fleet'}>
             <Button size="lg" variant="outline" className="border-2 border-yellow-500 text-yellow-600 dark:text-yellow-400 hover:bg-yellow-50 dark:hover:bg-yellow-950/30 text-lg px-8 py-6 rounded-2xl">
               {t('catalogBtn')}
             </Button>
+            </Link>
           </div>
         </div>
       </div>
@@ -118,9 +123,11 @@ export default function Index() {
               <p className="text-gray-600 dark:text-gray-400 text-lg md:text-xl leading-relaxed">
                 {t('block1Desc')}
               </p>
+              <Link href={'/services'}>
               <Button className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold rounded-xl px-8 py-6">
                 {t('catalogBtn')}
               </Button>
+              </Link>
             </div>
           </div>
 
@@ -141,9 +148,11 @@ export default function Index() {
               <p className="text-gray-600 dark:text-gray-400 text-lg md:text-xl leading-relaxed">
                 {t('block2Desc')}
               </p>
+              <Link href={'/contacts'}>
               <Button variant="outline" className="border-2 border-yellow-500 text-yellow-600 dark:text-yellow-400 rounded-xl px-8 py-6">
                 {t('contactBtn')}
               </Button>
+              </Link>
             </div>
           </div>
 
@@ -188,9 +197,11 @@ export default function Index() {
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">{t('ctaTitle')}</h2>
           <p className="text-white/90 text-lg md:text-xl mb-10">{t('ctaSub')}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href={'/contacts'}>
             <Button size="lg" className="bg-white hover:bg-gray-100 text-yellow-600 font-bold text-lg px-10 py-7 rounded-2xl shadow-2xl">
               {t('contactBtn')}
             </Button>
+            </Link>
           </div>
         </div>
       </div>
