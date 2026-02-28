@@ -5,6 +5,7 @@ import Header from './header/page'
 import './globals.css'
 import Footer from './footer/page'
 import { Toaster } from 'sonner';
+import GoogleProvider from './login/GoogleProvider';
 export default async function LocaleLayout({
   children,
   params
@@ -25,9 +26,11 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body>
         <NextIntlClientProvider messages={messages} locale={locale}>
+          <GoogleProvider>
           <Header />
           {children}
           <Footer />
+          </GoogleProvider>
           <Toaster position="top-center" richColors />
         </NextIntlClientProvider>
       </body>

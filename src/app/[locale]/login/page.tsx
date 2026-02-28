@@ -4,25 +4,36 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { useAuthStore } from '@/src/store/loginStore/loginStore'
+import { GoogleLogin } from '@react-oauth/google'
 
 export default function LoginPage() {
   const [username, setUsername] = useState('')
   const [password, setPassword] = useState('')
-  const { login, isLoading, error } = useAuthStore()
+  const [valError, setValError] = useState('')
+  
+
+  const { login, loginWithGoogle, isLoading, error } = useAuthStore()
   const router = useRouter()
 
-
-  const handleSubmit = async (e:any) => {
+  const handleSubmit = async (e: any) => {
     e.preventDefault()
+    setValError('')
     
+  
+    if (password.length < 8) {
+      setValError('Пароль должен содержать минимум 8 символов')
+      return
+    }
   
     const success = await login(username, password)
     
     if (success) {
-    
       router.push('/') 
     }
   }
+
+
+  const displayError = valError || error
 
   return (
     <div className="min-h-screen bg-white dark:bg-slate-950 flex items-center justify-center p-4">
@@ -62,6 +73,7 @@ export default function LoginPage() {
               <input 
                 type="password" 
                 required
+                minLength={8}
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 placeholder="••••••••"
@@ -69,9 +81,9 @@ export default function LoginPage() {
               />
             </div>
 
-            {error && (
+            {displayError && (
               <p className="text-red-500 text-sm font-bold text-center bg-red-50 dark:bg-red-900/20 py-2 rounded-lg">
-                {error}
+                {displayError}
               </p>
             )}
 
@@ -100,6 +112,25 @@ export default function LoginPage() {
               <div className="relative flex justify-center text-sm">
                 <span className="px-4 bg-white dark:bg-slate-900 text-slate-400">или</span>
               </div>
+            </div>
+
+            <div className="flex justify-center mb-6">
+              <GoogleLogin
+                onSuccess={async (credentialResponse) => {
+                  if (credentialResponse.credential) {
+                    const success = await loginWithGoogle(credentialResponse.credential)
+                    if (success) {
+                      router.push('/')
+                    }
+                  }
+                }}
+                onError={() => {
+                  console.error('Ошибка входа через Google')
+                }}
+                theme="outline"
+                size="large"
+                width="100%"
+              />
             </div>
 
             <div className="text-center">

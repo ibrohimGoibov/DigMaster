@@ -8,6 +8,8 @@ interface AuthState {
   login: (username: string, password: string) => Promise<boolean>;
   Register: (username: string, password: string, email: string, gender: string) => Promise<boolean>;
   logout: () => void;
+  // ДОБАВЛЯЕМ В ИНТЕРФЕЙС:
+  loginWithGoogle: (googleToken: string) => Promise<boolean>;
 }
 
 export const useAuthStore = create<AuthState>((set) => ({
@@ -34,11 +36,27 @@ export const useAuthStore = create<AuthState>((set) => ({
     set({ isLoading: true, error: null });
     try {
       await axiosRequest.post("/register", { username, password, email, gender });
-      
       set({ isLoading: false, error: null });
       return true;
     } catch (error: any) {
       const errorMessage = error.response?.data?.detail || "Ошибка при регистрации";
+      set({ error: errorMessage, isLoading: false });
+      return false;
+    }
+  },
+
+  // НОВАЯ ФУНКЦИЯ ДЛЯ GOOGLE:
+  loginWithGoogle: async (googleToken: string) => {
+    set({ isLoading: true, error: null });
+    try {
+      // Отправляем токен от гугла на твой бэкенд
+      const response = await axiosRequest.post("/auth/google", { token: googleToken });
+      const { access_token } = response.data;
+      SaveToken(access_token);
+      set({ isAuthenticated: true, isLoading: false, error: null });
+      return true;
+    } catch (error: any) {
+      const errorMessage = error.response?.data?.detail || "Ошибка Google авторизации";
       set({ error: errorMessage, isLoading: false });
       return false;
     }

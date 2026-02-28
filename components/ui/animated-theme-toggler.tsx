@@ -31,7 +31,6 @@ export const AnimatedThemeToggler = ({
   const toggleTheme = useCallback(async () => {
     if (!buttonRef.current) return
 
-    // Если браузер не поддерживает анимацию круга — просто меняем тему
     if (!document.startViewTransition) {
       const newTheme = !isDark
       setIsDark(newTheme)

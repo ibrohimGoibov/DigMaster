@@ -54,7 +54,7 @@ export default function ContactPage() {
                   <h3 className="font-bold dark:text-white mb-1">{t('phoneLabel')}</h3>
                   <p className="text-gray-600 dark:text-gray-400 text-sm mb-1">{t('phoneSub')}</p>
                   <a href="tel:+992900000000" className="text-lg font-bold text-yellow-500 hover:text-yellow-600 transition-colors tracking-wider">
-                    +992 900 000 000
+                    +992 977 89 65 65
                   </a>
                 </div>
               </div>
