@@ -10,9 +10,9 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen bg-white dark:bg-slate-950">
       
-      {/* Hero секция */}
+      
       <div className="relative bg-slate-900 py-16 md:py-24 overflow-hidden">
-        {/* Декоративный фон */}
+        
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 left-0 w-64 h-64 bg-yellow-500 rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 right-0 w-96 h-96 bg-yellow-500 rounded-full blur-3xl"></div>
@@ -29,11 +29,11 @@ export default function ContactPage() {
         </div>
       </div>
 
-      {/* Контактная информация и форма */}
+      
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12 md:py-16 lg:py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16">
           
-          {/* Левая колонка - контакты */}
+          
           <div className="space-y-8">
             <div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold dark:text-white mb-4 uppercase">
@@ -45,7 +45,7 @@ export default function ContactPage() {
             </div>
 
             <div className="space-y-4">
-              {/* Телефон */}
+              
               <div className="flex items-start gap-4 p-5 bg-slate-50 dark:bg-slate-900/50 rounded-2xl border border-slate-200 dark:border-slate-800 hover:border-yellow-500 transition-colors">
                 <div className="w-12 h-12 bg-yellow-500 rounded-xl flex items-center justify-center flex-shrink-0">
                   <Phone className="w-6 h-6 text-black" />
@@ -59,7 +59,7 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              {/* Email */}
+              
               <div className="flex items-start gap-4 p-5 bg-slate-50 dark:bg-slate-900/50 rounded-2xl border border-slate-200 dark:border-slate-800 hover:border-yellow-500 transition-colors">
                 <div className="w-12 h-12 bg-yellow-500 rounded-xl flex items-center justify-center flex-shrink-0">
                   <Mail className="w-6 h-6 text-black" />
@@ -73,7 +73,7 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              {/* Адрес */}
+              
               <div className="flex items-start gap-4 p-5 bg-slate-50 dark:bg-slate-900/50 rounded-2xl border border-slate-200 dark:border-slate-800 hover:border-yellow-500 transition-colors">
                 <div className="w-12 h-12 bg-yellow-500 rounded-xl flex items-center justify-center flex-shrink-0">
                   <MapPin className="w-6 h-6 text-black" />
@@ -87,7 +87,7 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              {/* Режим работы */}
+              
               <div className="flex items-start gap-4 p-5 bg-slate-50 dark:bg-slate-900/50 rounded-2xl border border-slate-200 dark:border-slate-800 hover:border-yellow-500 transition-colors">
                 <div className="w-12 h-12 bg-yellow-500 rounded-xl flex items-center justify-center flex-shrink-0">
                   <Clock className="w-6 h-6 text-black" />
@@ -102,7 +102,7 @@ export default function ContactPage() {
               </div>
             </div>
 
-            {/* Социальные сети */}
+            
             <div className="pt-4">
               <h3 className="font-bold dark:text-white mb-3">{t('socials')}</h3>
               <div className="flex gap-3">
@@ -115,7 +115,7 @@ export default function ContactPage() {
             </div>
           </div>
 
-          {/* Правая колонка - форма обратной связи */}
+          
           <div className="bg-white dark:bg-slate-900 rounded-3xl shadow-2xl p-6 sm:p-8 border border-slate-100 dark:border-slate-800">
             <div className="flex items-center gap-3 mb-6">
               <div className="w-10 h-10 bg-yellow-500 rounded-lg flex items-center justify-center">
@@ -175,7 +175,7 @@ export default function ContactPage() {
         </div>
       </div>
 
-      {/* Карта */}
+      
       <div className="max-w-7xl mx-auto px-4 sm:px-6 pb-12 md:pb-16 lg:pb-20">
         <div className="bg-slate-200 dark:bg-slate-800 h-[300px] md:h-[400px] rounded-3xl overflow-hidden relative border border-slate-100 dark:border-slate-800">
           <div className="absolute inset-0 flex items-center justify-center">
@@ -188,7 +188,7 @@ export default function ContactPage() {
         </div>
       </div>
 
-      {/* Мобильный бар */}
+      
       <div className="fixed bottom-6 left-4 right-4 lg:hidden z-50">
         <div className="bg-white/90 dark:bg-slate-900/90 backdrop-blur-lg rounded-2xl shadow-2xl border border-slate-200 dark:border-slate-800 p-2 flex gap-2">
           <a href="tel:+992900000000" className="flex-1 bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-3 rounded-xl text-sm flex items-center justify-center gap-2 transition-colors">

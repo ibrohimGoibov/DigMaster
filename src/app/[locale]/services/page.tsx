@@ -3,6 +3,7 @@
 import React from 'react'
 import { useTranslations } from 'next-intl'
 import { Mountain, Building2, Droplets, Rotate3d, HardHat } from "lucide-react"
+import Link from 'next/link';
 
 export default function ServicesPage() {
   const t = useTranslations('Services');
@@ -61,9 +62,13 @@ export default function ServicesPage() {
             <h2 className="text-3xl font-bold mb-4 italic">{t('ctaTitle')}</h2>
             <p className="text-gray-400">{t('ctaDesc')}</p>
           </div>
+          <Link href={'/contacts'}>
           <button className="bg-yellow-500 hover:bg-yellow-600 text-black font-black py-5 px-10 rounded-2xl transition-all active:scale-95 whitespace-nowrap">
             {t('ctaBtn')}
           </button>
+          </Link>
+          <div className="flex items-center justify-evenly">
+          </div>
         </div>
       </div>
     </div>

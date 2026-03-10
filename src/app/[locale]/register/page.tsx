@@ -36,7 +36,6 @@ export default function LoginPage() {
     <div className="min-h-screen bg-slate-50 dark:bg-[#0a0a0c] flex items-center justify-center p-6 relative overflow-hidden">   
       <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-yellow-500/10 rounded-full blur-[120px]" />
       <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-yellow-600/10 rounded-full blur-[120px]" />
-
       <div className="w-full max-w-[480px] z-10">
         
         <div className="text-center mb-10 group">

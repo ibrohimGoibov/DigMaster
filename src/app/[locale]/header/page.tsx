@@ -41,6 +41,7 @@ const Page = () => {
     { href: `/${locale}/services`, label: t('services') },
     { href: `/${locale}/about`, label: t('about') },
     { href: `/${locale}/contacts`, label: t('contacts') },
+    { href: '/exkavator', label: 'Exkavator' }
   ];
 
   return (
