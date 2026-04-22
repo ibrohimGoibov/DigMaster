@@ -9,8 +9,18 @@
     "about": "About Us",
     "contacts": "Contacts",
     "login": "Sign In",
-    "register": "Register"
+    "register": "Register",
+    "excavator": "Excavators"
   },
+  "Cookie": {
+    "title": "We use cookies",
+    "description": "We use cookies to enhance your experience, analyze traffic, and show relevant content. By clicking 'Accept all', you consent to the use of all cookies.",
+    "privacy": "Privacy Policy",
+    "settings": "Cookie settings",
+    "necessary": "Only necessary",
+    "acceptAll": "Accept all",
+    "close": "Close"
+},
   "Home": {
     "heroSub": "Premium Heavy Equipment Solutions. Own fleet of Volvo and JCB excavators ready for your major projects.",
     "contactBtn": "Contact Us Now",

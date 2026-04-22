@@ -1,6 +1,5 @@
 "use client"
 
-import React from 'react'
 import { useTranslations } from 'next-intl'
 import { Phone, Mail, MapPin, Clock, Send, MessageSquare, User, Building } from 'lucide-react'
 

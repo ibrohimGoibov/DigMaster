@@ -9,8 +9,18 @@
     "about": "关于我们",
     "contacts": "联系方式",
     "login": "登录",
-    "register": "注册"
+    "register": "注册",
+    "excavator": "挖掘机"
   },
+  "Cookie": {
+    "title": "我们使用 Cookie",
+    "description": "我们使用 Cookie 来改善您的体验、分析流量并显示相关内容。点击“接受全部”，即表示您同意使用所有 Cookie。",
+    "privacy": "隐私政策",
+    "settings": "Cookie 设置",
+    "necessary": "仅必要的",
+    "acceptAll": "接受全部",
+    "close": "关闭"
+},
   "Home": {
     "heroSub": "高端重型设备解决方案。拥有沃尔沃 (Volvo) 和 JCB 挖掘机车队，助力您的重大项目。",
     "contactBtn": "立即联系",

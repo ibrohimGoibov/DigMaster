@@ -6,6 +6,7 @@ import './globals.css'
 import Footer from './footer/page'
 import { Toaster } from 'sonner';
 import GoogleProvider from './login/GoogleProvider';
+import CookieConsent from './cookie/CookieConsent';
 export default async function LocaleLayout({
   children,
   params
@@ -29,6 +30,7 @@ export default async function LocaleLayout({
           <GoogleProvider>
           <Header />
           {children}
+          <CookieConsent />
           <Footer />
           </GoogleProvider>
           <Toaster position="top-center" richColors />
